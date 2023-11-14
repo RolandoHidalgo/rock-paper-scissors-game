@@ -1,13 +1,31 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rock paper scissors game</title>
+</head>
+<body>
+<div id="app">
+    <section class="score">
+        <img src="/logo.svg" alt="logo">
+        <div>
+            <span class="title">score</span>
+            <span class="value">12</span>
+        </div>
+    </section>
+    <section class="tringulo">
+        <div class="bola papel"></div>
+        <div class="bola tijera"></div>
+        <div class="bola piedra"></div>
+
+    </section>
+    <section class="rules">
+        <button>Rules</button>
+    </section>
+</div>
+
+<script type="module" src="/main.js"></script>
+</body>
 </html>
